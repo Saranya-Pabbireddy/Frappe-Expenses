@@ -1,0 +1,28 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2025-01-23 10:29:16.313787",
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "letterhead": null,
+ "modified": "2025-01-23 10:44:02.470560",
+ "modified_by": "Administrator",
+ "module": "Expense Tracking System",
+ "name": "Pending Expense Approvals",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "query": "SELECT \r\n    name as 'Expense Name',\r\n    amount AS Expense,\r\n    status,\r\n    approval_required\r\nFROM \r\n    `tabExpenses`\r\nWHERE \r\n    status = 'Pending' \r\n    AND (approval_required = 1) \r\n",
+ "ref_doctype": "Expenses",
+ "report_name": "Pending Expense Approvals",
+ "report_type": "Query Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ],
+ "timeout": 0
+}

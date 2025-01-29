@@ -1,0 +1,37 @@
+{
+ "chart_name": "Pending Expense Approvals",
+ "chart_type": "Report",
+ "creation": "2025-01-23 11:00:47.742443",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "dynamic_filters_json": "{}",
+ "filters_json": "{}",
+ "group_by_type": "Count",
+ "idx": 0,
+ "is_public": 1,
+ "is_standard": 1,
+ "modified": "2025-01-23 11:00:52.801459",
+ "modified_by": "Administrator",
+ "module": "Expense Tracking System",
+ "name": "Pending Expense Approvals",
+ "number_of_groups": 0,
+ "owner": "Administrator",
+ "report_name": "Pending Expense Approvals",
+ "roles": [],
+ "time_interval": "Yearly",
+ "timeseries": 0,
+ "timespan": "Last Year",
+ "type": "Bar",
+ "use_report_chart": 0,
+ "x_field": "status",
+ "y_axis": [
+  {
+   "color": "#e84646",
+   "y_field": "expense"
+  },
+  {
+   "color": "#449CF0",
+   "y_field": "approval_required"
+  }
+ ]
+}

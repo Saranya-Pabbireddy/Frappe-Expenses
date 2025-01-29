@@ -4,6 +4,23 @@ app_publisher = "Saranya"
 app_description = "Expense Tracker"
 app_email = "sarapabbireddy@gmail.com"
 app_license = "mit"
+scheduler_events = {
+    "daily": [
+        "expense_tracker.tasks.check_pending_approvals"
+    ],
+    "monthly": [
+        "expense_tracker.tasks.generate_monthly_report"
+    ]
+}
+
+doc_events = {
+    "Expenses": {
+        "on_submit": "expense_tracker.expense_tracking_system.doctype.expenses.expenses.on_submit",
+        "on_update_after_submit": "expense_tracker.expense_tracking_system.doctype.expenses.expenses.on_approval",
+    }
+}
+
+
 
 # Apps
 # ------------------

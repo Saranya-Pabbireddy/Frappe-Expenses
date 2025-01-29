@@ -1,0 +1,48 @@
+{
+ "cards": [
+  {
+   "card": "Total Expense"
+  },
+  {
+   "card": "Pending Expenses"
+  },
+  {
+   "card": "Approved Expenses"
+  },
+  {
+   "card": "Rejected Expenses"
+  },
+  {
+   "card": "Vendors"
+  },
+  {
+   "card": "Categories"
+  }
+ ],
+ "charts": [
+  {
+   "chart": "Monthly Total Expense",
+   "width": "Full"
+  },
+  {
+   "chart": "Top Expense Categories",
+   "width": "Full"
+  },
+  {
+   "chart": "Pending Expense Approvals",
+   "width": "Half"
+  }
+ ],
+ "creation": "2025-01-23 10:11:18.215749",
+ "dashboard_name": "Expense Tracker",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2025-01-29 09:40:35.852199",
+ "modified_by": "Administrator",
+ "module": "Expense Tracking System",
+ "name": "Expense Tracker",
+ "owner": "Administrator"
+}

@@ -1,0 +1,33 @@
+{
+ "chart_name": "Monthly Total Expense",
+ "chart_type": "Report",
+ "creation": "2025-01-23 10:10:56.608750",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "dynamic_filters_json": "{}",
+ "filters_json": "{}",
+ "group_by_type": "Count",
+ "idx": 0,
+ "is_public": 1,
+ "is_standard": 1,
+ "modified": "2025-01-23 10:10:56.608750",
+ "modified_by": "Administrator",
+ "module": "Expense Tracking System",
+ "name": "Monthly Total Expense",
+ "number_of_groups": 0,
+ "owner": "Administrator",
+ "report_name": "Monthly Total Expense",
+ "roles": [],
+ "time_interval": "Yearly",
+ "timeseries": 0,
+ "timespan": "Last Year",
+ "type": "Bar",
+ "use_report_chart": 0,
+ "x_field": "month",
+ "y_axis": [
+  {
+   "color": "#0fdb91",
+   "y_field": "total_expense"
+  }
+ ]
+}
